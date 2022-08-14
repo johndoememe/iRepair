@@ -1,0 +1,244 @@
+/* HTML ELEMENTS */
+body {
+  color: #4f4f60;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* SECTION COLOR */
+.whiteBackground {
+  background-color: white;
+}
+
+.coloredBackground {
+  background-color: #b2c8df;
+}
+
+/* HEADINGS */
+.mainHeading {
+  font-size: 3.5rem;
+}
+
+.sectionHeading {
+  font-size: 2.5rem;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-bottom: 75px;
+}
+
+.navbar .container-fluid {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #4f4f60;
+}
+
+.navbar-brand:hover {
+  color: #4f4f60;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+
+.nav-link:hover {
+  color: #4f4f60;
+}
+
+/* TITLE */
+#title > .container-fluid {
+  padding: 3% 15% 6%;
+}
+
+.repairBtn {
+  margin: 28px 0;
+  background-color: #4f4f60;
+  border-color: #4f4f60;
+}
+
+.repairIcon {
+  margin-right: 6px;
+}
+
+.titleTextCol {
+  text-align: left;
+}
+
+.titleImgCol {
+  position: relative;
+}
+
+.titleImg {
+  transform: rotate(25deg);
+  /* width: 26.5rem; */
+  width: 100%;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+#features > .container-fluid {
+  padding: 10%;
+}
+
+.featuresCol {
+  padding: 0% 2%;
+}
+
+.featureIcon {
+  color: #c9dcd7;
+  font-size: 3.5rem;
+}
+
+.featureIcon:hover {
+  color: #b2c8df;
+}
+
+.featuresHeading {
+  font-size: 1.5rem;
+  margin: 14px 0;
+}
+
+/* TESTIMONIALS */
+.carousel-inner {
+  padding: 7% 15% 4% 15%;
+}
+
+.testimonialText {
+  font-size: 2.5rem;
+}
+
+.testimonialImg {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* PRESS */
+#press {
+  padding: 0 0 5% 0;
+}
+
+.pressLogo {
+  width: 12%;
+  margin: 20px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 5%;
+}
+
+.pricingCol {
+  padding: 3% 2%;
+}
+
+.pricingHeading {
+  font-size: 1.5rem;
+  margin: 14px 0;
+}
+
+.pricingText {
+  font-size: 2.5rem;
+}
+
+.pricingBtn {
+  background-color: #4f4f60;
+  border-color: #4f4f60;
+}
+
+
+/* CALL TO ACTION */
+#cta {
+  padding: 6% 20% 5%;
+}
+
+#cta h3 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  padding-bottom: 1.5rem;
+}
+
+/* FOOTER */
+#footer {
+  padding: 4% 20% 2%;
+}
+
+#footer a {
+  color: #4f4f60;
+  margin: 8px;
+}
+
+#footer p {
+  font-size: 13px;
+  padding-top: 12px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1220px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .titleImg {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .titleTextCol {
+    text-align: center;
+  }
+  .titleImg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .titleImg {
+    width: 16rem;
+  }
+  #title .container-fluid {
+    padding: 3% 0;
+  }
+
+  nav {
+    padding: 3% 8% !important;
+  }
+}
