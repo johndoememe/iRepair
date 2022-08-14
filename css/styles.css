@@ -58,6 +58,10 @@ p {
   color: #4f4f60;
 }
 
+.navbar-brand:focus {
+  color: #4f4f60;
+}
+
 .nav-item {
   padding: 0 16px;
 }
